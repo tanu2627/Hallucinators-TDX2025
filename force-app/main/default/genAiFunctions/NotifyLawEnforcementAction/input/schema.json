@@ -1,0 +1,14 @@
+{
+  "required" : [ "Name" ],
+  "unevaluatedProperties" : false,
+  "properties" : {
+    "Name" : {
+      "title" : "Name",
+      "description" : "Accepts only Full Name of the Victim",
+      "lightning:type" : "lightning__textType",
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : false
+    }
+  },
+  "lightning:type" : "lightning__objectType"
+}

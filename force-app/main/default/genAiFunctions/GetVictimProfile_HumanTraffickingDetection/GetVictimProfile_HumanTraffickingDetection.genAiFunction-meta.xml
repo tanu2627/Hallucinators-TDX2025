@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenAiFunction xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Get the victim profile for human trafficking investigation. This will generate a summarized profile of a victim travel behavior, job application, recruiter legitimacy, and overall risk indicators associated to a victims profile.</description>
+    <invocationTarget>GetVictimProfile_HumanTraffickingDetection</invocationTarget>
+    <invocationTargetType>generatePromptResponse</invocationTargetType>
+    <isConfirmationRequired>false</isConfirmationRequired>
+    <isIncludeInProgressIndicator>false</isIncludeInProgressIndicator>
+    <masterLabel>GetVictimProfile_HumanTraffickingDetection</masterLabel>
+</GenAiFunction>

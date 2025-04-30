@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenAiPlugin xmlns="http://soap.sforce.com/2006/04/metadata">
+    <canEscalate>false</canEscalate>
+    <description>This topic focuses on initiating the investigation process for potential victims of human trafficking. It handles inquiries related to identifying and assisting these individuals, analyzing the risk and summarize the victims profile with reasons for suspicion</description>
+    <developerName>Human_Trafficking_Investigation</developerName>
+    <genAiFunctions>
+        <functionName>GetVictimProfile_HumanTraffickingDetection</functionName>
+    </genAiFunctions>
+    <genAiPluginInstructions>
+        <description>when user ask to summarize a victim profile or unified profile with Name or email Id  always use GetVictimProfile_HumanTraffickingDetection to fetch and summarize the victim profile</description>
+        <developerName>instruction_whenuseras0</developerName>
+        <language>en_US</language>
+        <masterLabel>instruction_whenuseras0</masterLabel>
+    </genAiPluginInstructions>
+    <language>en_US</language>
+    <masterLabel>Human Trafficking Investigation</masterLabel>
+    <pluginType>Topic</pluginType>
+    <scope>Your job is only to initiate the investigation process when prompted from Salesforce Agent or slack for potential victims of human trafficking. You must gather relevant information, escalate cases to appropriate authorities, and provide necessary informations to the investigation bodies.</scope>
+</GenAiPlugin>

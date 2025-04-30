@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataSource xmlns="http://soap.sforce.com/2006/04/metadata">
+    <masterLabel>TravelBooking_Data_7f2eb4ed_51a2_4596_93a0_ef169ea74fb1</masterLabel>
+    <prefix>Tra</prefix>
+</DataSource>

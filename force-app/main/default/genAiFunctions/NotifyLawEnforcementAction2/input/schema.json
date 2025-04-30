@@ -1,0 +1,21 @@
+{
+  "required" : [ "Name", "Summary" ],
+  "unevaluatedProperties" : false,
+  "properties" : {
+    "Name" : {
+      "title" : "Name",
+      "description" : "Accepts only Full Name of the Victim Contact",
+      "lightning:type" : "lightning__textType",
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : false
+    },
+    "Summary" : {
+      "title" : "Summary",
+      "description" : "Accepts Case description as the summary",
+      "lightning:type" : "lightning__textType",
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : false
+    }
+  },
+  "lightning:type" : "lightning__objectType"
+}
